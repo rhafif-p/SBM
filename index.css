@@ -1,0 +1,266 @@
+.background-icon,
+.warninglogo-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1366px;
+  height: 768px;
+}
+
+.warninglogo-icon {
+  width: 300px;
+  height: 100px;
+}
+.i,
+.templogo-icon {
+  position: absolute;
+  top: 20.5px;
+  left: 296.5px;
+  width: 27.6px;
+  height: 54.5px;
+}
+.i {
+  top: 20px;
+  left: 134px;
+  display: inline-block;
+  font-weight: 700;
+  width: 71px;
+  height: 56px;
+}
+.i1,
+.i2,
+.temperature {
+  position: absolute;
+  top: 334px;
+  left: 63px;
+  width: 324.1px;
+  height: 100px;
+}
+.i1,
+.i2 {
+  top: 19px;
+  left: 113px;
+  display: inline-block;
+  font-weight: 700;
+  width: 71px;
+  height: 56px;
+}
+.i2 {
+  left: 49px;
+  color: var(--color-gainsboro);
+}
+.humidity,
+.humidity-logo-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 245.31px;
+  height: 100px;
+}
+.humidity {
+  top: 447px;
+  left: 164px;
+  width: 243.81px;
+  color: var(--color-crimson);
+}
+.destination-icon,
+.gaugebg-icon {
+  position: absolute;
+  top: 419px;
+  left: 738px;
+  width: 491px;
+  height: 211px;
+}
+.gaugebg-icon {
+  top: -3px;
+  left: -3px;
+  width: 506px;
+  height: 506px;
+}
+.div,
+.m {
+  position: absolute;
+  display: inline-block;
+}
+.div {
+  top: 9px;
+  left: 0;
+  letter-spacing: 0.5em;
+  font-weight: 600;
+  width: 162px;
+  height: 25px;
+}
+.m {
+  top: 0;
+  left: 139px;
+  font-family: var(--font-advent-pro);
+  color: var(--color-crimson);
+  width: 45px;
+  height: 18px;
+}
+.distance,
+.ms,
+.velocity {
+  position: absolute;
+  top: 321px;
+  left: 169px;
+  width: 184px;
+  height: 34px;
+}
+.ms,
+.velocity {
+  top: 105px;
+  left: 0;
+  display: inline-block;
+  width: 144px;
+  height: 44px;
+}
+.velocity {
+  top: 0;
+  left: 8px;
+  font-size: var(--font-size-77xl);
+  font-family: var(--font-arvo);
+  color: var(--color-gainsboro);
+  width: 126px;
+  height: 107px;
+}
+.speed-text {
+  position: absolute;
+  top: 160px;
+  left: 178px;
+  width: 144px;
+  height: 149px;
+  font-size: var(--font-size-13xl);
+  color: var(--color-crimson);
+  font-family: var(--font-advent-pro);
+}
+.arrow-icon,
+.speedgauge {
+  position: absolute;
+  top: 250px;
+  left: 243px;
+  width: 14px;
+  height: 187px;
+}
+
+.arrow-icon {
+  transform-origin: 0px 0px;
+  animation: rotate 2s infinite;
+  z-index: 999;
+}
+.speedgauge {
+  top: 134px;
+  left: 433px;
+  width: 500.5px;
+  height: 501px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-antonio);
+}
+.incline-gauge-icon,
+.needle-icon {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 276px;
+  height: 276px;
+}
+.needle-icon {
+  top: 38px;
+  left: 132px;
+  width: 12px;
+  height: 99px;
+  transform-origin: bottom center;
+  animation: rotate-1 2s infinite linear;
+}
+
+.incline-logo-icon {
+  position: absolute;
+  top: -29px;
+  left: -11.5px;
+  width: 43px;
+  height: 46px;
+}
+.o {
+  top: 69px;
+  left: 149px;
+  display: inline-block;
+  width: 71px;
+  height: 56px;
+}
+.div1,
+.incline,
+.o {
+  position: absolute;
+}
+.div1 {
+  top: 73px;
+  left: 75px;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gainsboro);
+  display: inline-block;
+  width: 126px;
+  height: 107px;
+}
+.incline {
+  top: 247px;
+  left: 953px;
+  width: 275px;
+  height: 275px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-crimson);
+}
+.car-icon {
+  position: absolute;
+  top: 193px;
+  left: 198px;
+  width: 76px;
+  height: 42px;
+}
+.chem {
+  color: var(--color-goldenrod);
+}
+.e {
+  color: var(--color-crimson);
+}
+.chem-e-car {
+  top: 197px;
+  left: 0;
+  display: inline-block;
+  width: 197px;
+  height: 44px;
+}
+.chem-e-car,
+.logo,
+.ugm-icon {
+  position: absolute;
+}
+.ugm-icon {
+  height: 25.65%;
+  width: 5.06%;
+  top: 0;
+  right: 0;
+  bottom: 74.35%;
+  left: 94.94%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.logo {
+  top: 72px;
+  left: 125px;
+  width: 1172.27px;
+  height: 241px;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-advent-pro);
+}
+.monitor {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 768px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-gainsboro);
+  font-family: var(--font-arvo);
+}
